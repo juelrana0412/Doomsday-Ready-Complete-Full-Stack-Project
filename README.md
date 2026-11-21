@@ -263,8 +263,28 @@ Test the following:
 11. Verify minimum bundle count using a case where greedy selection fails.
 12. Verify impossible booking sizes.
 
+
+## Application Screenshots
+
+### 1. Movie Dashboard
+![Movie Dashboard](screenshots/image1.png)
+
+### 2. Add Movie & Prerequisites
+![Add Movie](screenshots/image5.png)
+
+![Add Movie](screenshots/image2.png)
+
+### 3. Rewatch Planner
+![Rewatch Planner](screenshots/image3.png)
+
+### 4. Cinema Booking
+![Cinema Booking](screenshots/image4.png)
+
+
 ## Author
 
 **Developed by:** Md. Juel Rana
+
 **Project:** Doomsday Ready
+
 **Type:** Full-Stack Web Application
