@@ -15,11 +15,13 @@ class Movie(models.Model):
     watched = models.BooleanField(default=False)
 
     prerequisites = models.ManyToManyField(
-        'self',
-        symmetrical=False,
-        blank=True,
-        related_name='required_by'
+    "self",
+    symmetrical=False,
+    blank=True,
+    related_name="dependent_movies"
     )
+
+
 
     created_at = models.DateTimeField(auto_now_add=True)
 

@@ -1056,3 +1056,76 @@ input[type="checkbox"] {
     grid-template-columns: 1fr;
   }
 }
+
+/* Movie prerequisite status */
+
+.movie-list-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #6558e8;
+}
+
+.movie-list-heading h2 {
+  margin-bottom: 6px;
+  color: #20253c;
+}
+
+.movie-list-heading p {
+  margin: 0;
+  color: #788197;
+  font-size: 12px;
+}
+
+.movie-prerequisites {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #f8f8fc;
+}
+
+.movie-prerequisites > strong {
+  margin-bottom: 3px;
+  color: #555d72;
+  font-size: 11px;
+}
+
+.prerequisite-status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+}
+
+.prerequisite-status span {
+  flex: 1;
+  color: #414961;
+}
+
+.prerequisite-status small {
+  color: #8990a2;
+  font-size: 10px;
+}
+
+.locked-message {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px !important;
+  color: #c17a24 !important;
+  font-size: 11px !important;
+  font-weight: 600;
+}
+
+.watch-disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.watch-disabled input {
+  cursor: not-allowed;
+}
