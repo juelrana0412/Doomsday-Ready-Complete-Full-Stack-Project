@@ -265,4 +265,6 @@ Test the following:
 
 ## Author
 
-Doomsday Ready — Full-Stack Application
+**Developed by:** Md. Juel Rana
+**Project:** Doomsday Ready
+**Type:** Full-Stack Web Application
